@@ -1,0 +1,149 @@
+body {
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: 'Hind', sans-serif;
+}
+body a {
+  text-decoration: none;
+}
+body h2 {
+  margin: -10px 0 14px;
+  padding: 0 0 4px 0;
+  line-height: 30px;
+  font-family: 'Quicksand', sans-serif;
+  border-bottom: 1px solid #222;
+  letter-spacing: 5px;
+}
+body footer {
+  color: #fff;
+  background: #222;
+  padding: 20px 20px 10px;
+  text-align: right;
+  margin-top: 40px;
+  line-height: 100%;
+}
+nav {
+  background: #fff;
+  padding: 25px 20px 8px 20px;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  width: 100%;
+}
+nav #title {
+  float: left;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+nav #title h1 {
+  margin: 0;
+  padding: 0 40px;
+  letter-spacing: 5px;
+}
+nav ul {
+  margin-right: 50px;
+  padding: 0;
+  text-align: right;
+  list-style: none;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  font-size: 18px;
+  padding: 20px;
+  line-height: 51px;
+  letter-spacing: 0.5px;
+}
+#landing {
+  padding: 160px 0 80px;
+  width: 100%;
+  text-align: center;
+  background-image: url("../img/toronto_3.png");
+  background-position: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#landing header {
+  display: -webkit-flex;
+  display: flex;
+}
+#landing img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: #fff;
+}
+#about {
+  position: relative;
+  padding: 60px 0;
+  margin: auto;
+}
+#about section {
+  display: -webkit-flex;
+  display: flex;
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  height: auto;
+}
+#about section .subject {
+  margin: 20px;
+  width: calc(50% - 40px);
+}
+#about section .subject header {
+  font-weight: bold;
+  align-content: left;
+}
+#about section img {
+  width: 100%;
+  height: auto;
+  margin: 10px 0 30px;
+}
+#partners {
+  margin: 60px 0;
+  text-align: center;
+}
+#partners h2 {
+  width: 200px;
+  margin: auto;
+}
+#partners .logoscontainer {
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+}
+#partners .logoscontainer img {
+  max-height: 100px;
+  border: none;
+}
+#contact {
+  width: 80%;
+  position: relative;
+  margin: 100px auto;
+}
+#contact header h2 {
+  margin: 0 auto 40px auto;
+  width: 200px;
+  display: block;
+  text-align: center;
+}
+#contact section {
+  display: -webkit-flex;
+  display: flex;
+}
+#contact section section {
+  width: 50%;
+}
+#contact section section table {
+  padding: 20px;
+  margin: auto;
+  text-align: center;
+}
+#contact section section table img {
+  width: 200px;
+  height: 300px;
+}

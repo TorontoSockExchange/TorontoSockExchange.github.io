@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Toronto Sock Exchange</title>
+
+
+        <!-- Start trial -->
+        <!-- Trial-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <!-- End trial-->
+
+
+        <link rel="stylesheet" href="css/styles.min.css"/>
+        <script src="js/scripts.min.js"></script>
+
+        <link rel="stylesheet" href="slick/slick.css" />
+        <link rel="stylesheet" href="slick/slick-theme.css" />
+
+        <!--link to Google Fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Hind|Quicksand|Raleway:400,700" rel="stylesheet">
+
+        <!--link to Font Awesome Icons-->
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    </head>
+    <body onload="onLoad()">
+        <nav>
+            <ul>
+                <li id="title"><h1>TSE</h1></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#partners">Partners</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+
+        <section id="landing">
+            <img src="" alt="" />
+        </section>
+
+        <section id="about">
+            <section>
+              <!-- subject wraps the header & paragraph so that the info is displayed vertically (ie. no space b/c of the flex property)-->
+              <div class="subject">
+                <header><h2>About Us</h2></header>
+                <p>
+                    The Toronto Sock Exchange seeks to provide warm socks and other living necessities to those in need. We achieve this ambition through the sale of fancy dress socks within large corporations, using 100% of our profits to purchase warm items to donate.
+                </p>
+              </div><!--end .subject-->
+                <div class="subject" style="margin-left: 20px;"><img src="./img/toronto_1.jpg" alt="" /></div>
+            </section>
+            <section>
+                <div class="subject" style="margin-right: 20px;"><img src="./img/toronto_2.jpg" alt="" /></div>
+                <div class="subject">
+                <header><h2>Success</h2></header>
+                <p>
+                    In our pilot year at 1 company we were able to sell over 600 pairs of fancy socks, donating 2400 warm wool socks to homeless shelters across the GTA. This year, we have increased our network to 10 companies, and hope to see a commensurate increase in profits & donations.
+                </p>
+              </div><!--end .subject-->
+            </section>
+        </section>
+
+        <section id="partners">
+            <header>
+                <h2>Partners</h2>
+            </header>
+
+              <div class="logoscontainer">
+
+                <div class="slider variable-width">
+                  <div><a href="#" class="thumbnail"><img src="img/survicamlogo.jpeg" alt="SurviCam Logo"></a></div>
+                  <div><a href="#" class="thumbnail"><img src="img/clinalfalogo.png" alt="Clinalfal Logo"></a></div>
+                  <div><a href="#" class="thumbnail"><img src="img/veecologo.png" alt="Veeco Logo"></a></div>
+                </div><!--end slider variable-width"-->
+
+                <!--slick slider-->
+                <!--License
+                Copyright (c) 2014 Ken Wheeler
+                Github: https://github.com/kenwheeler/slick
+                Website: http://kenwheeler.github.io/slick/ -->
+
+                  <script src="slick/slick.min.js"></script>
+                  <script>
+                    $(document).ready(function(){
+                      $('.variable-width').slick({
+                          dots: true,
+                          infinite: true,
+                          speed: 300,
+                          slidesToShow: 1,
+                          centerMode: true,
+                          variableWidth: true
+                      });
+                    });
+                  </script>
+                </div><!--end .box2-->
+
+        </section>
+
+
+        <section id="contact">
+            <header><h2>Contact</h2></header>
+          <section>
+            <section>
+              <table>
+                <tr>
+                  <th>
+                    <img src="./img/curtis.jpg" alt="">
+                  </th>
+                </tr>
+                <tr>
+                  <th>
+                    <header>Curtis Urbanowicz</header>
+                  </th>
+                </tr>
+                <tr>
+                  <td>
+                    <p style="text-align: left;">
+                        <i class="fa fa-envelope-o"></i> 
+                        <a href="mailto:curtis.urbanwicz@gmail.com">curtis.urbanwicz@gmail.com</a>
+                    </p>
+                  </td>
+                </tr>
+              </table>
+            </section>
+            <section>
+              <table>
+                <tr>
+                  <th>
+                    <img src="./img/benjamin.png" alt="">
+                  </th>
+                </tr>
+                <tr>
+                  <th>
+                    <header>Ben Trefler</header>
+                  </th>
+                </tr>
+                <tr>
+                  <td>
+                    <p style="text-align: left;">
+                      <i class="fa fa-envelope-o"></i> 
+                      <a href="mailto:bentrefler@icloud.com">bentrefler@icloud.com</a>
+                    </p>
+                  </td>
+                </tr>
+              </table>
+            </section>
+          </section>
+        </section><!--end #contact-->
+
+        <footer>
+            <p id="copyrights">
+                Content &copy; Toronto Sock Exchange | Designed by Developers' Foundation
+            </p>
+        </footer>
+    </body>
+</html>
